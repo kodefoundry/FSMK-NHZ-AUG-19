@@ -1,0 +1,21 @@
+Deactivate base venv on terminal start by default
+-------------------------------------------------
+conda config --set auto_activate_base false
+
+Virual Environment management using conda
+-----------------------------------------
+
+conda activate yourenvname
+conda create -n yourenvname python=x.x anaconda
+conda deactivate
+conda install -n yourenvname [package]
+conda remove -n yourenvname -all
+
+Check versions and updates
+--------------------------
+conda --v
+conda list anaconda
+conda update conda
+conda update anaconda
+
+
